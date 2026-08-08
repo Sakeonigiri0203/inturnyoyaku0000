@@ -13,10 +13,17 @@ const data = {
                 category: "製造系企業",
 
                 description:
-                    "北海道にある製造系企業です。"
-            }
-        }
-    },
+                    "北海道にある製造系企業です。",
+                internship: {
+   
+                type: "duration",
+         
+                startDate: "2026-09-07",
+         
+                duration: 6
+             
+                }
+   },
 
 
     "東北": {
