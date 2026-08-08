@@ -7,13 +7,21 @@ const data = {
     "北海道": {
 
          "北海道": {
-
-            "XX 株式会社": {
-
-                category: "水産業の会社",
-
-                description:
-                    "水産物を加工する企業です。"
+                "XX 株式会社": {
+                  
+                  category: "水産加工の会社",
+                  
+                  description:
+                        "主に水産物を加工して商品を開発もしている企業です。",
+                  
+                  internship: {
+                  
+                        type: "fixed",
+                  
+                        startDate: "2026-09-08",
+                  
+                        endDate: "2026-09-12"
+                  }
             },
 
             "YY 株式会社": {
@@ -28,15 +36,25 @@ const data = {
 
     "東北": {
 
-        "青森県": {
-
-            "AA 株式会社": {
-
-                category: "情報系の会社",
-
-                description:
-                    "情報・通信系の企業です。"
-            },
+        
+       "青森県": {
+   
+           "AA 株式会社": {
+   
+               category: "情報系の会社",
+   
+               description:
+                   "情報・通信系の企業です。",
+   
+               internship: {
+   
+                   type: "fixed",
+   
+                   startDate: "2026-08-20",
+   
+                   endDate: "2026-08-24"
+               }
+           },
 
             "AB 株式会社": {
 
